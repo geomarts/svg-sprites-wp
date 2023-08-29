@@ -64,3 +64,7 @@ function playground_sidebar_registration() {
 	);
 }
 add_action( 'widgets_init', 'playground_sidebar_registration' );
+
+function print_sprites_path() {
+	echo esc_url( get_template_directory_uri() ) . '/assets/img/sprites.svg';
+}

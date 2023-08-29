@@ -14,10 +14,10 @@ get_header();
 					<a class="btn-contact" href="">
 						<?php esc_html_e( 'Contact us', 'playground' ); ?>
 						<svg class="shape" aria-hidden="true">
-							<use href="#button"></use>
+							<use href="<?php print_sprites_path(); ?>#button"></use>
 						</svg>
 						<svg width="24" height="24" aria-hidden="true">
-							<use href="#send"></use>
+							<use href="<?php print_sprites_path(); ?>#send"></use>
 						</svg>
 					</a>
 				</div>
